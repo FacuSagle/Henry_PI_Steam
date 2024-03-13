@@ -23,7 +23,7 @@ def get_user_for_genre(genero: str = 'Action')-> dict:
 
     result= {
         'Usuario con mas horas jugadas por genero {}'.format(genero): df_filtered_by_genre.top_user_id[0],
-        'Horas jugadas': round(hours_year_list,1)
+        'Horas jugadas': hours_year_list
         }
 
 
